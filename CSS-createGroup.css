@@ -65,4 +65,28 @@
  }
 
 
+
+@media only screen and (max-width:750px) {
+
+    #Staff_management-grid{
+     display: grid;
+     grid-template-areas: 
+     'header '
+     'groupDetail ';
+    }
+  
+    .contact-box{
+      width: 80%;
+    }
+
+    .field{
+        width:90%;
+    }
+
+    #guidelist{
+        width: 50%;
+    }
+
+    }
+
  

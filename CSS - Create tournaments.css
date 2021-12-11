@@ -1,0 +1,88 @@
+   
+ /*content*/
+ #tournament-grid {
+  display: grid;
+  grid-template-areas: 
+  'tournament-header'
+  'tournament-main' ;
+}
+#tournament-header {
+  grid-area: tournament-header;
+  width: 100%;
+  height: 100%;
+
+}
+#tournament-main {
+  grid-area: tournament-main;
+  width: 100%;
+  height: 100%;
+}
+ /*forms*/
+ /*input[type=text], [type=date], textarea*/
+.field{
+    width: 25%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    background-color: rgba(222, 184, 135, 0.226);
+    margin: 10px 10px;
+  }
+
+.field:focus{
+      background-color: rgb(211, 183, 147);
+  }
+
+.contact-box{
+    background-color: #ffffff;
+    color: black;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    line-height: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border: 1px solid #d1ccbc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+    /*justify-content: center;  
+    align-items: center;  
+    display: flex;
+    text-align: center;*/
+        
+ }
+
+ @media only screen and (max-width:750px) {
+
+  #tournament-grid{
+   display: grid;
+   grid-template-areas: 
+   'tournament-header'
+   'tournament-main';
+  }
+
+  .contact-box{
+    width: 80%;
+  }
+
+  .field{
+      width:90%;
+  }
+  
+  label {
+    float: right;
+    margin: 0 1.5em 0 0;
+    }
+
+}
+
+
+
+

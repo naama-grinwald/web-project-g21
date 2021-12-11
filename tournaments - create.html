@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS - Create tournaments.css">
+    <link rel="stylesheet" href="CSS-all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Tournament</title>
+</head>
+
+<body onscroll="navbar()">
+    <!-- navbar -->
+    <div id="navbar">
+        <a class="nav_item" href="#contact"> טורנירים</a>
+        <a class="nav_item" href="#contact">ניהול קבוצות</a>
+        <a class="nav_item" href="#about">ניהול צוות</a>
+        <a href="#about" id="login"> LogOut</a>
+        <div id="login">היי דינה!</div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div id="tournament-grid">
+            <div id="tournament-header">
+                <h1>טורנירים</h1>
+                <h2>יצירת טורניר</h2>
+            </div>
+            <div id="tournament-main">
+               <div class="contact-box">
+                    <form >
+                        <div>
+                            <label class ="labels" for="tournamentName">שם:</label>
+                            <input type="text" class="field" id="tournamentName" placeholder="שם הטורניר" required>
+                        
+                            <label for="tournamentDate">תאריך:</label>
+                            <input type="date" class="field" id="tournamentDate">
+    
+                            <label for="tournamentLocation">מיקום:</label>
+                            <input type="text" class="field" id="tournamentLocation" placeholder="מיקום" required><br> 
+                        
+                            <label>סוג טורניר:</label>
+                            <input type="text" class="field" list="tournamentType" placeholder="בחר מרשימה" required>
+                                <datalist id="tournamentType">
+                                    <option value="אזורי">
+                                    <option value="ארצי">
+                                </datalist>
+                
+                            <label>עונה:</label>
+                            <input type="text" class="field" list="tournamentSeason" placeholder="בחר מרשימה" required>
+                                <datalist id="tournamentSeason">
+                                    <option value="אמצע">
+                                    <option value="סוף">
+                                </datalist><br>
+                        
+                            <label>פרטים נוספים:</label><br>
+                            <textarea id="comment" class="field" name="comment" cols="100" rows="4"></textarea><br>
+                            <button type="submit">צור טורניר</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+                
+             
+        </div>
+
+    </div>
+    
+
+    <!-- Footer -->
+    <div class="footer ">
+        <div clss="img-chess">
+            <img src="img/chess_tools.png" alt="chess tools" style="position:absolute ; left: 0% ; bottom:0% "
+                height="70" />
+            <img src="img/logo.png" alt="logo" style="position:absolute ; right: 1% ; bottom:20% " height="40" />
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
