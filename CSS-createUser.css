@@ -65,10 +65,11 @@
     text-align: center;
   }
 
-  .label{
-    margin-top: 6px; 
-    margin-bottom: 16px;
-  }
+  label {
+      float: right;
+      margin: 0 1.0em 0 0;
+ }
+  
 
   /*responsive web */
 @media only screen and (max-width:750px) {
