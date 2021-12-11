@@ -18,6 +18,7 @@
 
    .title-spesific {
     position:absolute;
+    z-index: 1;
     margin: 0 auto;
     top: 70px;
     right: 30%;
@@ -47,8 +48,8 @@
       font-size: 16px;
       border: 1px solid #222222;
       border-radius: 8px;
-      width:10%;
-  }
+      width:20%;
+      }
   
   #inputsubmit:hover {
       background-color: #dfdbdb;

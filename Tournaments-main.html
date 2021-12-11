@@ -10,12 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Home</title>
+    <title>טורנירים-דף הבית</title>
 </head>
 
 <body onscroll="navbar()" style="height: 100%;">
     <!-- navbar -->
-    <div class= "nav" id="navbar" >
+    <div class="nav" id="navbar">
         <a class="nav_item" href="Tournaments-main.html"> טורנירים</a>
         <a class="nav_item" href="CreateGroup.html">יצירת קבוצות</a>
         <a class="nav_item" href="Staff.html">ניהול צוות</a>
@@ -23,20 +23,20 @@
         <div id="login">היי דינה!</div>
         <a href="javascript:void(0);" class="icon" onclick="navbar_res()">
             <i class="fa fa-bars"></i>
-          </a>
+        </a>
     </div>
 
     <!-- content -->
     <div class="content">
         <div id="tournament-grid">
             <div id="tournament-header">
+                <div style="height: 50px;"></div>
                 <h1>טורנירים</h1>
             </div>
             <div id="tournament-main">
-                <h2>ניהול טורנירים פעילים</h2>
                 <div id="card-container">
                     <!--card 1-->
-                    <div class="card" onclick="location.href='Tournament-specific.html'" >
+                    <div class="card" onclick="location.href='Tournament-specific.html'">
                         <div class="card-body">
                             <h5 class="card-title">מלכה</h5>
                             <h6 class="card-subtitle">טורניר אמצע אזורי - תל אביב</h6>
@@ -66,13 +66,10 @@
 
                 </div>
                 <br>
-                <div>
-                    <button> טורנירים קודמים &raquo </button>
-                </div>
             </div>
 
             <div id="tournament-create">
-                <button>יצירת טורניר</button>
+                <button onclick="location.href='tournaments - create.html'">יצירת טורניר</button>
             </div>
         </div>
     </div>

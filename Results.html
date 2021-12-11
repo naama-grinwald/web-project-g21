@@ -7,15 +7,15 @@
     <script src="JS.js"></script>
     <link rel="stylesheet" href="CSS-all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="Css-Table.css">
-
+    <link rel="stylesheet" href="Css-Table.css">
+    <link rel="stylesheet" href="CSS-header.css">
 
 </head>
 
 <body onscroll="navbar()">
     <!-- navbar -->
 
-    <div class= "nav" id="navbar" >
+    <div class="nav" id="navbar">
         <a class="nav_item" href="Tournaments-main.html"> טורנירים</a>
         <a class="nav_item" href="CreateGroup.html">יצירת קבוצות</a>
         <a class="nav_item" href="Staff.html">ניהול צוות</a>
@@ -23,39 +23,56 @@
         <div id="login">היי דינה!</div>
         <a href="javascript:void(0);" class="icon" onclick="navbar_res()">
             <i class="fa fa-bars"></i>
-          </a>
+        </a>
     </div>
 
     <!-- content -->
 
-    <div class="content" >
-		<h2>תוצאות טורניר- מלכה 04.04.2022</h2>
-		<table  id= "ResultsTable">
-			<tr>
-			  <th>קבוצה</th>
-			  <th>תוצאה</th>
-			</tr>
-			<tr>
-                <td class="column1">ה'2 בית ספר אריאל גני תקווה</td>
-                <td class="column2">75%</td>
-            </tr>
-            <tr>
-                <td class="column1"> ד'1 בית ספר שיבולים באר שבע</td>
-                <td class="column2">66.66%</td>
-            </tr>
-            <tr>
-                <td class="column1"> ה'1 בית ספר דורות רעות</td>
-                <td class="column2">55.66%</td>
-            </tr>
-            <tr>
-                <td class="column1"> ד'1 בית ספר אריאל גני תקווה</td>
-                <td class="column2">53.66%</td>
-            </tr>
-		  </table>
-		<button >טען מחדש</button>
+    <div class="content">
+        <div id="samegrid">
+            <div id="sameHead">
+                <div style="height: 50px;"></div>
+                <div id="tournament-specific-header">
+                    <div class="title-spesific">
+                        <h4>תוצאות</h4>
+                    </div>
+                    <h4>דף ניהול טורניר - מלכה</h4>
+                    <button style="float: left; margin: 10px;" onclick="location.href='Tournament-specific.html'">חזרה
+                        לטורניר</button>
+                    <p>תאריך: 24/12/2021 <br> מיקום: בית ספר אילנות, ת"א <br> סוג הטורניר: אזורי <br> עונה: טורניר אמצע
+                    </p>
+                    <div class="bottomright"></div>
+                </div>
+            </div>
 
+
+            <div id="judje" style="margin:50px 5px">
+                <table id="ResultsTable">
+                    <tr>
+                        <th>קבוצה</th>
+                        <th>תוצאה</th>
+                    </tr>
+                    <tr>
+                        <td class="column1">ה'2 בית ספר אריאל גני תקווה</td>
+                        <td class="column2">75%</td>
+                    </tr>
+                    <tr>
+                        <td class="column1"> ד'1 בית ספר שיבולים באר שבע</td>
+                        <td class="column2">66.66%</td>
+                    </tr>
+                    <tr>
+                        <td class="column1"> ה'1 בית ספר דורות רעות</td>
+                        <td class="column2">55.66%</td>
+                    </tr>
+                    <tr>
+                        <td class="column1"> ד'1 בית ספר אריאל גני תקווה</td>
+                        <td class="column2">53.66%</td>
+                    </tr>
+                </table>
+                <button>טען מחדש</button>
+            </div>
+        </div>
     </div>
-
     <!-- Footer -->
     <div class="footer ">
         <div clss="img-chess">
@@ -65,6 +82,7 @@
 
         </div>
     </div>
+
 
 </body>
 

@@ -63,6 +63,7 @@ html, body {
   }
   
   .nav_item {
+    z-index: 1000;
     float: right;
     display: block;
     color: #f2f2f2;
@@ -90,6 +91,7 @@ html, body {
   
   .sticky {
     position: fixed;
+    z-index: 1000;
     top: 0;
     width: 100%;
   }

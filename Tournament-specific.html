@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="CSS-header.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tournament Malka</title>
+    <title>טורניר- מלכה</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body onscroll="navbar()" style="height: 100%;">
     <!-- navbar -->
-    <div class= "nav" id="navbar" >
+    <div class="nav" id="navbar">
         <a class="nav_item" href="Tournaments-main.html"> טורנירים</a>
         <a class="nav_item" href="CreateGroup.html">יצירת קבוצות</a>
         <a class="nav_item" href="Staff.html">ניהול צוות</a>
@@ -25,58 +25,62 @@
         <div id="login">היי דינה!</div>
         <a href="javascript:void(0);" class="icon" onclick="navbar_res()">
             <i class="fa fa-bars"></i>
-          </a>
+        </a>
     </div>
 
     <!-- content -->
     <div class="content">
-        <div id="tournament-specific-grid">
-            <div id="tournament-specific-header">
-                <h4>דף ניהול טורניר - מלכה</h4>
-                <button style="float: left; margin: 10px;">עריכת טורניר</button>
-                <p>תאריך: 24/12/2021 <br> מיקום: בית ספר אילנות, ת"א <br> סוג הטורניר: אזורי <br> עונה: טורניר אמצע</p>
-                <div class="bottomright"></div>
+        <div id="samegrid">
+            <div id="sameHead">
+                <div style="height: 50px;"></div>
+                <div id="tournament-specific-header">
+                    <h4>דף ניהול טורניר - מלכה</h4>
+                    <p>תאריך: 24/12/2021 <br> מיקום: בית ספר אילנות, ת"א <br> סוג הטורניר: אזורי <br> עונה: טורניר אמצע
+                    </p>
+                    <div class="bottomright"></div>
+                </div>
             </div>
 
-            <div id="tournament-specific-details">
-                <div id="details-container">
-                    <div class="specific-detail" id="tables-rank-status">
-                        <h6>מספר השולחנות שנוקדו</h6>
-                        <p>45/50</p>
-                    </div>
-                    <div class="specific-detail" id="rounds-status">
-                        <h6>מספר הסבבים</h6>
-                        <p>2/3</p>
-                    </div>
-                    <div class="specific-detail" id="children-status">
-                        <h6>מספר החניכים המשתתפים</h6>
-                        <p>100</p>
-                    </div>
-                </div>
-                <br>
-            </div>
-            <div id="tournament-specific-main">
-                <div id="card-container">
-                    <!--card 1-->
-                    <div class="card"  onclick="location.href='Judgment.html'">
-                        <h5 class="card-title">שיפוט</h5>
-                    </div>
-                    <!--card 2-->
-                    <div class="card" onclick="location.href='Attendance.html'">
-                        <h5 class="card-title">רישום נוכחות</h5>
-                    </div>
-                    <!--card 3-->
-                    <div class="card" onclick="location.href='Managemant.html'">
-                        <h5 class="card-title">הנהלה</h5>
-                    </div>
-                    <!--card 3-->
-                    <div class="card" onclick="location.href='Results.html'">
-                        <h5 class="card-title">תוצאות</h5>
+            <div id="judje">
+                <div id="tournament-specific-details">
+                    <div id="details-container">
+                        <div class="specific-detail" id="tables-rank-status">
+                            <h6>מספר השולחנות שנוקדו</h6>
+                            <p>45/50</p>
+                        </div>
+                        <div class="specific-detail" id="rounds-status">
+                            <h6>מספר הסבבים</h6>
+                            <p>2/3</p>
+                        </div>
+                        <div class="specific-detail" id="children-status">
+                            <h6>מספר החניכים המשתתפים</h6>
+                            <p>100</p>
+                        </div>
                     </div>
                     <br>
                 </div>
+                <div id="tournament-specific-main">
+                    <div id="card-container">
+                        <!--card 1-->
+                        <div class="card" onclick="location.href='Judgment.html'">
+                            <h5 class="card-title">שיפוט</h5>
+                        </div>
+                        <!--card 2-->
+                        <div class="card" onclick="location.href='Attendance.html'">
+                            <h5 class="card-title">רישום נוכחות</h5>
+                        </div>
+                        <!--card 3-->
+                        <div class="card" onclick="location.href='Managemant.html'">
+                            <h5 class="card-title">הנהלה</h5>
+                        </div>
+                        <!--card 3-->
+                        <div class="card" onclick="location.href='Results.html'">
+                            <h5 class="card-title">תוצאות</h5>
+                        </div>
+                        <br>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
 

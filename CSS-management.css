@@ -1,23 +1,13 @@
 /*management css*/
 
-#management-grid {
-    display: grid;
-    grid-template-areas: 
-    'tournament-specific-header'
-    'tournament-specific-details'
-    'management-groups '
-    'management-staff '
-    ;
-  }
+
 
   #tournament-specific-details {
-    grid-area: tournament-specific-details;
     width: 100%;
     height: 100%;
   }
 
   #management-groups {
-    grid-area: management-groups;
     width: 100%;
     height: 100%;
     margin: 10px 5px;
@@ -25,7 +15,6 @@
   }
 
   #management-staff {
-    grid-area: management-staff;
     width: 100%;
     height: 100%;
     margin: 5px 5px;

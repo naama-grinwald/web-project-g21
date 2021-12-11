@@ -76,10 +76,12 @@
 				</td>
 			</tr>
 			<tr>
-				<td><input type="text" id="new_name"></td>
-				<td><input type="text" class="emailInput" id="new_email"></td>
-				<td><input type="text" id="new_phone"></td>
-				<td><button class="select" onclick="add_row();">הוסף</button></td>
+				<form action="">
+				<td><input type="text" id="new_name" placeholder="שם פרטי ומשפחה" required></td>
+				<td><input type="text" class="emailInput" id="new_email" placeholder="Email" required></td>
+				<td><input type="text" id="new_phone" placeholder="טלפון" required></td>
+				<td><button type="submit" class="select" onclick="add_row();">הוסף</button></td>
+			</form>
 				</tr>
 				
 
