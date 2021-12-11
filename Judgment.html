@@ -9,19 +9,24 @@
     <link rel="stylesheet" href="CSS-all.css">
     <link rel="stylesheet" href="CSS-header.css">
     <link rel="stylesheet" href="CSS-Judgment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="JS.js"></script>
 </head>
 
-<body onscroll="navbar()" style="height: 100%;">
+<body onscroll="navbar()" >
     <!-- navbar -->
 
-    <div id="navbar">
-        <a class="nav_item" href="#contact"> טורנירים</a>
-        <a class="nav_item" href="#contact">ניהול קבוצות</a>
-        <a class="nav_item" href="#about">ניהול צוות</a>
-        <a href="#about" id="login"> LogOut</a>
-        <div id="login">היי דינה!</div>
-    </div>
 
+    <div class= "nav" id="navbar" >
+        <a class="nav_item" href="Tournaments-main.html"> טורנירים</a>
+        <a class="nav_item" href="CreateGroup.html">יצירת קבוצות</a>
+        <a class="nav_item" href="Staff.html">ניהול צוות</a>
+        <a href="SignIn.html" id="login">LogOut</a>
+        <div id="login">היי דינה!</div>
+        <a href="javascript:void(0);" class="icon" onclick="navbar_res()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
     <!-- content -->
 
 
@@ -59,7 +64,7 @@
                                 <label for="player2">שם שחקן 2</label>
                                 <input type="text" name="player2_name" placeholder="שם השחקן" required>
                             </div>
-                            <div class="col">
+                            <div class="col" id="score">
                                 <label for="score">ניקוד</label> <br>
                                 <select name="score">
                                     <option value="australia">0.5 | 0.5</option>
@@ -74,7 +79,7 @@
                                 <input type="text" name="player1_name" placeholder="שם השחקן" required>
                             </div>
 
-                            <div class="score">
+                            <div class="submit_but">
                                 <input type="submit" value="שלח">
                             </div>
                         </div>
