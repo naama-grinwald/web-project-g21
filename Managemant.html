@@ -11,27 +11,34 @@
     <link rel="stylesheet" href="Css-Table.css">
     <link rel="stylesheet" href="CSS-header.css">
     <script src="JS.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
-<body onscroll="navbar()" style="width: 100%;">
+<body onscroll="navbar()" >
     <!-- navbar -->
-    <div id="navbar">
-        <a class="nav_item" href="#contact"> טורנירים</a>
-        <a class="nav_item" href="#contact">ניהול קבוצות</a>
-        <a class="nav_item" href="#about">ניהול צוות</a>
-        <a href="#about" id="login"> LogOut</a>
-        <div id="login">היי דינה!</div>
-    </div>
+<div class= "nav" id="navbar" >
+    <a class="nav_item" href="Tournaments-main.html"> טורנירים</a>
+    <a class="nav_item" href="CreateGroup.html">יצירת קבוצות</a>
+    <a class="nav_item" href="Staff.html">ניהול צוות</a>
+    <a href="SignIn.html" id="login">LogOut</a>
+    <div id="login">היי דינה!</div>
+    <a href="javascript:void(0);" class="icon" onclick="navbar_res()">
+        <i class="fa fa-bars"></i>
+      </a>
+</div>
+
 
     <!-- content -->
-    <div class="content" style="height: 100%;">
+    <div class="content" >
         <form>
             <div id="management-grid">
+                <div style="height: 40px;">   </div>
                 <div id="tournament-specific-header">
-                    <div class="title-spesific">
+                     <!-- <div class="title-spesific">
                         <h4>הנהלה</h4>
-                    </div>
+                    </div> -->
                     <h4>דף ניהול טורניר - מלכה</h4>
                     <input id="inputsubmit" type="submit" value="עדכן טורניר"
                         style="float: left; margin: 10px;"></input>
