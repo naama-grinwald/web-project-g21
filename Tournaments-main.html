@@ -8,17 +8,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Home</title>
 </head>
 
 <body onscroll="navbar()" style="height: 100%;">
     <!-- navbar -->
-    <div id="navbar">
-        <a class="nav_item" href="#contact"> טורנירים</a>
-        <a class="nav_item" href="#contact">ניהול קבוצות</a>
-        <a class="nav_item" href="#about">ניהול צוות</a>
-        <a href="#about" id="login"> LogOut</a>
+    <div class= "nav" id="navbar" >
+        <a class="nav_item" href="Tournaments-main.html"> טורנירים</a>
+        <a class="nav_item" href="CreateGroup.html">יצירת קבוצות</a>
+        <a class="nav_item" href="Staff.html">ניהול צוות</a>
+        <a href="SignIn.html" id="login">LogOut</a>
         <div id="login">היי דינה!</div>
+        <a href="javascript:void(0);" class="icon" onclick="navbar_res()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
 
     <!-- content -->
@@ -31,7 +36,7 @@
                 <h2>ניהול טורנירים פעילים</h2>
                 <div id="card-container">
                     <!--card 1-->
-                    <div class="card" href="#">
+                    <div class="card" onclick="location.href='Tournament-specific.html'" >
                         <div class="card-body">
                             <h5 class="card-title">מלכה</h5>
                             <h6 class="card-subtitle">טורניר אמצע אזורי - תל אביב</h6>
@@ -40,7 +45,7 @@
                         </div>
                     </div>
                     <!--card 2-->
-                    <div class="card" href="#">
+                    <div class="card" onclick="location.href='Tournament-specific.html'">
                         <div class="card-body">
                             <h5 class="card-title">צריח</h5>
                             <h6 class="card-subtitle">טורניר אמצע אזורי - באר שבע</h6>
@@ -49,7 +54,7 @@
                         </div>
                     </div>
                     <!--card 3-->
-                    <div class="card" href="#">
+                    <div class="card" onclick="location.href='Tournament-specific.html'">
                         <div class="card-body">
                             <h5 class="card-title">פרש</h5>
                             <h6 class="card-subtitle">טורניר סוף שנה ארצי</h6>
