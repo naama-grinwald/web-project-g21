@@ -1,0 +1,68 @@
+/*main page*/
+
+#Group_management-grid {
+    display: grid;
+    grid-template-areas: 
+    'header '
+    'groupDetail '
+   
+    ;
+}
+
+#Group_management-header{
+    grid-area: header;
+    width: 60%;
+    height: 100%;
+}
+
+#management-groups {
+    grid-area: groupDetail;
+    width: 20%;
+    height: 100%;
+   
+  }
+
+.field{
+    width: 40%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    background-color: rgba(222, 184, 135, 0.226);
+    margin: 10px 10px;
+  }
+
+  
+.field:focus{
+      background-color: rgb(241, 196, 136);
+  }
+
+.contact-box{
+    background-color: #ffffff;
+    color: black;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    line-height: 20px;
+    justify-content: left;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border: 1px solid #d1ccbc;
+   
+  
+ }
+
+ #buttonid{
+     text-align: center;
+ }
+
+ #guidelist{
+     width: 25%;
+ }
+
+
+ 

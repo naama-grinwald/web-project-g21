@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <script src="JS.js"></script>
+    <link rel="stylesheet" href="CSS-all.css">
+    <link rel="stylesheet" href="CSS-tournament-specific.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malka Tournament</title>
+</head>
+
+<body onscroll="navbar()" style="height: 100%;">
+    <!-- navbar -->
+    <div id="navbar">
+        <a class="nav_item" href="#contact"> טורנירים</a>
+        <a class="nav_item" href="#contact">ניהול קבוצות</a>
+        <a class="nav_item" href="#about">ניהול צוות</a>
+        <a href="#about" id="login"> LogOut</a>
+        <div id="login">היי דינה!</div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div id="tournament-specific-grid">
+            <div id="tournament-specific-header">
+                <div class="title-spesific">
+                    <h4>שיפוט</h4>
+                </div>
+                <h4>דף ניהול טורניר - מלכה</h4>
+                <button style="float: left; margin: 10px;">עריכת טורניר</button>
+                <p>תאריך: 24/12/2021 <br> מיקום: בית ספר אילנות, ת"א <br> סוג הטורניר: אזורי <br> עונה: טורניר אמצע</p>
+                <div class="bottomright"></div>
+            </div>
+
+            <div id="tournament-specific-details">
+                <div id="details-container">
+                    <div class="specific-detail" id="tables-rank-status">
+                        <h6>מספר השולחנות שנוקדו</h6>
+                        <p>45/50</p>
+                    </div>
+                    <div class="specific-detail" id="rounds-status">
+                        <h6>מספר הסבבים</h6>
+                        <p>2/3</p>
+                    </div>
+                    <div class="specific-detail" id="children-status">
+                        <h6>מספר החניכים המשתתפים</h6>
+                        <p>100</p>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div id="tournament-specific-main">
+                <div id="card-container">
+                    <!--card 1-->
+                    <div class="card" href="#">
+                        <h5 class="card-title">שיפוט</h5>
+                    </div>
+                    <!--card 2-->
+                    <div class="card" href="#">
+                        <h5 class="card-title">רישום נוכחות</h5>
+                    </div>
+                    <!--card 3-->
+                    <div class="card" href="#">
+                        <h5 class="card-title">הנהלה</h5>
+                    </div>
+                    <!--card 3-->
+                    <div class="card" href="#">
+                        <h5 class="card-title">תוצאות</h5>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer ">
+        <div clss="img-chess">
+            <img src="img/chess_tools.png" alt="chess tools" style="position:absolute ; left: 0% ; bottom:0% "
+                height="70" />
+            <img src="img/logo.png" alt="logo" style="position:absolute ; right: 1% ; bottom:20% " height="40" />
+        </div>
+    </div>
+
+</body>
+
+</html>

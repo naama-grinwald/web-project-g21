@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Managment Malka</title>
+    <link rel="stylesheet" href="CSS-all.css">
+    <link rel="stylesheet" href="CSS-management.css">
+    <link rel="stylesheet" href="Css-Table.css">
+    <link rel="stylesheet" href="CSS-tournament-specific.css">
+    <script src="JS.js"></script>
+</head>
+
+
+<body onscroll="navbar()" style="width: 100%;">
+    <!-- navbar -->
+    <div id="navbar">
+        <a class="nav_item" href="#contact"> טורנירים</a>
+        <a class="nav_item" href="#contact">ניהול קבוצות</a>
+        <a class="nav_item" href="#about">ניהול צוות</a>
+        <a href="#about" id="login"> LogOut</a>
+        <div id="login">היי דינה!</div>
+    </div>
+
+    <!-- content -->
+    <div class="content" style="height: 100%;">
+        <form>
+            <div id="management-grid">
+                <div id="tournament-specific-header">
+                    <div class="title-spesific">
+                        <h4>הנהלה</h4>
+                    </div>
+                    <h4>דף ניהול טורניר - מלכה</h4>
+                    <input id="inputsubmit" type="submit" value="עדכן טורניר" style="float: left; margin: 10px;"></input>
+                    <p>תאריך: 24/12/2021 <br> מיקום: בית ספר אילנות, ת"א <br> סוג הטורניר: אזורי <br> עונה: טורניר אמצע
+                    </p>
+                    <div class="bottomright"></div>
+                </div>
+                <div id="management-groups">
+                    <section class="section">
+                        <h4>קבוצות</h4>
+                        <details>
+                            <summary>
+                                <h6>כיתה ג' בי"ס עמית ת"א</h6>
+                            </summary>
+                            <div id="add">
+                                <h6>מדריך הקבוצה: צפנת כהן</h6>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>שם פרטי</th>
+                                    <th>שם משפחה</th>
+                                    <th>מספר שחקן</th>
+                                    <th>רישום</th>
+                                    <th>נוכחות</th>
+                                </tr>
+                                <tr>
+                                    <td>אלון</td>
+                                    <td>גרינוולד</td>
+                                    <td>12</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>עומר</td>
+                                    <td>שמש</td>
+                                    <td>111</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>אילון</td>
+                                    <td>כהן</td>
+                                    <td>123</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>רותם</td>
+                                    <td>לוי</td>
+                                    <td>124</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox">
+                                        </label></td>
+                                </tr>
+                            </table>
+                        </details>
+                        <details>
+                            <summary>
+                                <h6>כיתה ד' בי"ס אורנים מודיעין</h6>
+                            </summary>
+                            <div id="add">
+                                <h6>מדריך הקבוצה: נעמה גרינוולד</h6>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>שם פרטי</th>
+                                    <th>שם משפחה</th>
+                                    <th>מספר שחקן</th>
+                                    <th>רישום</th>
+                                    <th>נוכחות</th>
+                                </tr>
+                                <tr>
+                                    <td>אופיר</td>
+                                    <td>חן</td>
+                                    <td>444</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox">
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>יעל</td>
+                                    <td>אליאס</td>
+                                    <td>130</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox">
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>ספיר</td>
+                                    <td>כהן</td>
+                                    <td>30</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox">
+                                        </label></td>
+                                </tr>
+                            </table>
+                        </details>
+                        <details>
+                            <summary>
+                                <h6>כיתה ו' בי"ס דורות קריית שמונה</h6>
+                            </summary>
+                            <div id="add">
+                                <h6>מדריך הקבוצה: אורי חן</h6>
+                            </div>
+                            <table>
+                                <tr>
+                                    <th>שם פרטי</th>
+                                    <th>שם משפחה</th>
+                                    <th>מספר שחקן</th>
+                                    <th>רישום</th>
+                                    <th>נוכחות</th>
+                                </tr>
+                                <tr>
+                                    <td>יהלי</td>
+                                    <td>אבני</td>
+                                    <td>231</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox">
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>רועי</td>
+                                    <td>שלומי</td>
+                                    <td>189</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                </tr>
+                                <tr>
+                                    <td>מירב</td>
+                                    <td>זמיר</td>
+                                    <td>366</td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                    <td><label class="checkbox">
+                                            <input type="checkbox" checked>
+                                        </label></td>
+                                </tr>
+                            </table>
+                        </details>
+                        <div id="add">
+                            <h6> הוספת קבוצה לטורניר:</h6>
+                            <select>
+                                <option>בחר קבוצה</option>
+                                <option>כיתה ו' בי"ס עמית, מודיעין</option>
+                                <option>כיתה ג' בי"ס אסיף, באר שבע</option>
+                                <option>כיתה ג' בי"ס מבואות, באר טוביה</option>
+                            </select> <br>
+                            <button>הוסף</button>
+                        </div>
+                    </section>
+                </div>
+
+                <div id="management-staff">
+                    <section class="section">
+                        <h4>אנשי צוות</h4>
+                        <details>
+                            <summary>
+                                <h6>מדריכים</h6>
+                            </summary>
+                            <table>
+                                <tr>
+                                    <th>שם פרטי</th>
+                                    <th>שם משפחה</th>
+                                    <th>אימייל</th>
+                                    <th>טלפון נייד</th>
+                                </tr>
+                                <tr>
+                                    <td>אלון</td>
+                                    <td>גרינוולד</td>
+                                    <td>alon@gmail.com</td>
+                                    <td>050-5781943</td>
+                                </tr>
+                                <tr>
+                                    <td>עומר</td>
+                                    <td>שמש</td>
+                                    <td>shemesh@gmail.com</td>
+                                    <td>052-3987610</td>
+                                </tr>
+                                <tr>
+                                    <td>אילון</td>
+                                    <td>כהן</td>
+                                    <td>eilon_c@gmail.com</td>
+                                    <td>054-2905943</td>
+                                </tr>
+                            </table>
+                        </details>
+                        <details>
+                            <summary>
+                                <h6>שופטים</h6>
+                            </summary>
+                            <table>
+                                <tr>
+                                    <th>שם פרטי</th>
+                                    <th>שם משפחה</th>
+                                    <th>אימייל</th>
+                                    <th>טלפון נייד</th>
+                                </tr>
+                                <tr>
+                                    <td>יותם</td>
+                                    <td>צדוק</td>
+                                    <td>yotam@gmail.com</td>
+                                    <td>050-5876512</td>
+                                </tr>
+                                <tr>
+                                    <td>דינה</td>
+                                    <td>עמר</td>
+                                    <td>dina@gmail.com</td>
+                                    <td>050-2367185</td>
+                                </tr>
+                            </table>
+                        </details>
+                    </section>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer ">
+        <div clss="img-chess">
+            <img src="img/chess_tools.png" alt="chess tools" style="position:absolute ; left: 0% ; bottom:0% "
+                height="70" />
+            <img src="img/logo.png" alt="logo" style="position:absolute ; right: 1% ; bottom:20% " height="40" />
+
+        </div>
+    </div>
+
+</body>
+
+
+</html>

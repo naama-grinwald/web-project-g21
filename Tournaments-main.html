@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS-all.css">
+    <link rel="stylesheet" href="CSS-tournament-main.css">
+    <script src="JS.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body onscroll="navbar()" style="height: 100%;">
+    <!-- navbar -->
+    <div id="navbar">
+        <a class="nav_item" href="#contact"> טורנירים</a>
+        <a class="nav_item" href="#contact">ניהול קבוצות</a>
+        <a class="nav_item" href="#about">ניהול צוות</a>
+        <a href="#about" id="login"> LogOut</a>
+        <div id="login">היי דינה!</div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+        <div id="tournament-grid">
+            <div id="tournament-header">
+                <h1>טורנירים</h1>
+            </div>
+            <div id="tournament-main">
+                <h2>ניהול טורנירים פעילים</h2>
+                <div id="card-container">
+                    <!--card 1-->
+                    <div class="card" href="#">
+                        <div class="card-body">
+                            <h5 class="card-title">מלכה</h5>
+                            <h6 class="card-subtitle">טורניר אמצע אזורי - תל אביב</h6>
+                            <p class="card-text">24/12/2021</p>
+                            <p class="card-text">מיקום: בית ספר אילנות, ת"א</p>
+                        </div>
+                    </div>
+                    <!--card 2-->
+                    <div class="card" href="#">
+                        <div class="card-body">
+                            <h5 class="card-title">צריח</h5>
+                            <h6 class="card-subtitle">טורניר אמצע אזורי - באר שבע</h6>
+                            <p class="card-text">30/12/2021</p>
+                            <p class="card-text">מיקום: בית ספר עמית, שדרות רגר 59, באר שבע</p>
+                        </div>
+                    </div>
+                    <!--card 3-->
+                    <div class="card" href="#">
+                        <div class="card-body">
+                            <h5 class="card-title">פרש</h5>
+                            <h6 class="card-subtitle">טורניר סוף שנה ארצי</h6>
+                            <p class="card-text">4/6/2022</p>
+                            <p class="card-text">מיקום: שדרות העומרים 4, שדרות</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <br>
+                <div>
+                    <button> טורנירים קודמים &raquo </button>
+                </div>
+            </div>
+
+            <div id="tournament-create">
+                <button>יצירת טורניר</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer ">
+        <div clss="img-chess">
+            <img src="img/chess_tools.png" alt="chess tools" style="position:absolute ; left: 0% ; bottom:0% "
+                height="70" />
+            <img src="img/logo.png" alt="logo" style="position:absolute ; right: 1% ; bottom:20% " height="40" />
+        </div>
+    </div>
+
+
+</body>
+
+</html>

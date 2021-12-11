@@ -1,0 +1,84 @@
+/*management css*/
+
+#management-grid {
+    display: grid;
+    grid-template-areas: 
+    'tournament-specific-header'
+    'tournament-specific-details'
+    'management-groups '
+    'management-staff '
+    ;
+  }
+
+  #tournament-specific-update {
+    grid-area: tournament-specific-update;
+    width: 100%;
+    height: 100%;
+    text-align:left;
+  }
+   
+  #tournament-specific-details {
+    grid-area: tournament-specific-details;
+    width: 100%;
+    height: 100%;
+  }
+
+  #management-groups {
+    grid-area: management-groups;
+    width: 100%;
+    height: 100%;
+    margin: 10px 5px;
+
+  }
+
+  #management-staff {
+    grid-area: management-staff;
+    width: 100%;
+    height: 100%;
+    margin: 5px 5px;
+  }
+
+  details {
+    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+  }
+  
+  summary {
+    background: rgb(221, 218, 206);
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  summary > * {
+    display: inline;
+  }
+
+  select{
+    background-color: rgba(222, 184, 135, 0.226);
+    color: black;
+    cursor: pointer;
+    margin: 10px 10px; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    font-size: 15px;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#add{
+  display: inline-flex;
+}
+
+#edit-guide{
+  height: 30px;
+  text-align:center;
+  justify-items: center;
+}
+
+section{
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+  background-color: rgb(248, 245, 232);
+  border-radius: 15px;
+  padding: 1em;
+  margin: 2px;
+}

@@ -1,0 +1,30 @@
+/*tournament main page*/
+
+#tournament-grid {
+    display: grid;
+    grid-template-areas: 
+    'tournament-header tournament-create'
+    'tournament-main tournament-main'
+    ;
+}
+
+#tournament-header {
+    grid-area: tournament-header;
+    width: 100%;
+    height: 100%;
+}
+
+#tournament-create {
+    grid-area: tournament-create;
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+#tournament-main {
+    grid-area: tournament-main;
+    width: 100%;
+    height: 100%;
+}

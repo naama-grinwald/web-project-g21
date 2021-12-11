@@ -1,0 +1,146 @@
+/*general css*/
+
+@font-face {
+    font-family: Rubik;
+    src: url(Rubik-Italic-VariableFont_wght.ttf);
+  }
+
+* {
+    font-family: Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 30px;
+
+}
+
+h4{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+}
+
+/*navigation bar*/
+#navbar {
+    overflow: hidden;
+    background-color: rgb(211, 183, 147);
+  }
+ 
+  #login {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav_item {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #navbar a:hover {
+    background-color: rgb(216, 201, 187);
+    color: black;
+  }
+
+  .content {
+    padding: 16px;
+   
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  /*footer*/
+
+  .footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:60px;  
+    background:rgb(211, 183, 147);
+ }
+
+  /*cards*/
+
+ #card-container {
+    text-align: justify;
+  }
+  #card-container div {
+    display: inline-block;
+  }
+  #card-container:after {
+    content: '';
+    display: inline-block;
+  }
+  
+.card {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    line-height: 20px;
+    justify-content: left;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border: 1px solid #d1ccbc;
+}
+
+.card:hover {
+    background-color: #f0e4d2;
+}
+
+  /*button*/
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    padding: 13px 23px;
+    font-size: 16px;
+    border: 1px solid #222222;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #dfdbdb;
+}

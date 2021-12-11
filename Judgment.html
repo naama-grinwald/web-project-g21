@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS-all.css">
+
+    <link rel="stylesheet" href="CSS-Judgment.css">
+</head>
+<body onscroll="navbar()">
+    <!-- navbar -->
+    
+    <div id="navbar" >
+        <a class="nav_item" href="#contact"> טורנירים</a>
+        <a class="nav_item" href="#contact">ניהול קבוצות</a>
+        <a class="nav_item" href="#about">ניהול צוות</a>
+        <a href="#about" id="login"> LogOut</a>
+        <div id="login">היי דינה!</div>
+    </div>
+    
+    <!-- content -->
+    
+    <div class="content" style="height: 410px;">
+        <div class="container1">
+            <form action="/action_page.php">
+              <div class="row">
+                <h2 style="text-align:center">ניקוד משחק</h2>
+  
+                <div class="upper">
+                    <label for="round">סבב</label>
+                    <input type="text" name="round" placeholder="סבב" required>
+                    <label for="table">מספר שולחן</label>
+                    <input type="text" name="table" placeholder="מספר שולחן" required>
+                </div> 
+          
+                <div class="col">
+                    <label for="player2">מס שחקן 2</label>
+                    <input type="text" name="player2" placeholder="מספר שחקן" required>
+                    <label for="player2">שם שחקן 2</label>
+                    <input type="text" name="player2_name" placeholder="שם השחקן" required>
+                </div>
+                 <div class="col">
+                    <label for="score">ניקוד</label> <br>
+                    <select name="score">
+                    <option value="australia">0.5 | 0.5</option>
+                    <option value="canada">1 | 0</option>
+                    <option value="usa">0 | 1</option>
+                    </select> <br>
+                </div>
+                <div class="col">
+                    <label for="player1">מס שחקן 1</label>
+                    <input type="text" name="player1" placeholder="מספר שחקן" required>
+                    <label for="player1">שם שחקן 1</label>
+                    <input type="text" name="player1_name" placeholder="שם השחקן" required>
+                </div>
+
+                <div class="score">
+                    <input type="submit" value="שלח">
+                </div>
+              </div>
+    
+            </form>
+          </div>
+          
+    
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer ">
+        <div clss="img-chess">
+                <img  src="img/chess_tools.png"  alt="chess tools" style="position:absolute ; left: 0% ; bottom:0% "  height="70"/>
+                <img  src="img/logo.png"  alt="logo" style="position:absolute ; right: 1% ; bottom:20% "  height="40"/>
+    
+        </div>
+    </div>
+   
+</body>
+</html>
