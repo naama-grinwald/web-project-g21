@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <title>אנשי צוות</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="JS.js"></script>
+    <link rel="stylesheet" href="CSS-all.css">
+	<link rel="stylesheet" href="Css-Table.css">
+
+
+</head>
+
+<body onscroll="navbar()">
+    <!-- navbar -->
+
+    <div id="navbar">
+        <a class="nav_item" href="#contact"> טורנירים</a>
+        <a class="nav_item" href="#contact">ניהול קבוצות</a>
+        <a class="nav_item" href="#about">ניהול צוות</a>
+        <a href="#about" id="login"> LogOut</a>
+        <div id="login">היי דינה!</div>
+    </div>
+
+    <!-- content -->
+
+    <div class="content" >
+		<h2>ניהול אנשי צוות</h2>
+		<table id= "staffTable" cellspacing=2 cellpadding=5>
+			<tr>
+			  <th>שם פרטי ומשפחה</th>
+			  <th>Email</th>
+              <th>טלפון</th>
+			</tr>
+			<tr id="row1">
+			  <td id="name_row1">נעמה גרינוולד</td>
+			  <td id="email_row1">naamagrin@gmail.com</td>
+              <td id="phone_row1">054-3346782</td>
+			  <td>
+				<button id="edit_button1" class="select" onclick="edit_row('1')">ערוך</button>
+				<button id="save_button1" style="display: none;" class="select" onclick="save_row('1')">שמור</button>
+				<button id="removeButton" class="select" onclick="delete_row('1')">מחק</button>	
+		  </td>
+			</tr>
+			<tr id="row2">
+				  <td id="name_row2">דנה אליאס</td>
+				  <td id="email_row2">DanaElias@gmail.com</td>
+                  <td id="phone_row2">053-7785436</td>
+				  <td>
+					<button id="edit_button2" class="select" onclick="edit_row('2')">ערוך</button>
+					<button id="save_button2" style="display: none;" class="select" onclick="save_row('2')">שמור</button>
+					<button id="removeButton" class="select" onclick="delete_row('2')">מחק</button>	
+				</td>
+			</tr>
+			<tr id="row3">
+				  <td id="name_row3">אורי חן</td>
+				  <td id="email_row3">Orihen@gmail.com</td>
+                  <td id="phone_row3">052-7365236</td>
+				  <td>
+					<button id="edit_button3" class="select" onclick="edit_row('3')">ערוך</button>
+					<button id="save_button3" style="display: none;" class="select" onclick="save_row('3')">שמור</button>
+					<button id="removeButton" class="select" onclick="delete_row('3')">מחק</button>	
+				</td>
+			</tr>
+			<tr id="row4">
+				  <td id="name_row4">צפנת כהן</td>
+				  <td id="email_row4">tzofnatc@gmail.com</td>
+                  <td id="phone_row4">052-5809287</td>
+				  <td>
+					<button id="edit_button4" class="select" onclick="edit_row('4')">ערוך</button>
+					<button id="save_button4" style="display: none;" class="select" onclick="save_row('4')">שמור</button>
+					<button id="removeButton" class="select" onclick="delete_row('4')">מחק</button>	
+				</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="new_name"></td>
+				<td><input type="text" class="emailInput" id="new_email"></td>
+				<td><input type="text" id="new_phone"></td>
+				<td><button class="select" onclick="add_row();">הוסף</button></td>
+				</tr>
+				
+
+		  </table>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer ">
+        <div clss="img-chess">
+            <img src="img/chess_tools.png" alt="chess tools" style="position:absolute ; left: 0% ; bottom:0% "
+                height="70" />
+            <img src="img/logo.png" alt="logo" style="position:absolute ; right: 1% ; bottom:20% " height="40" />
+
+        </div>
+    </div>
+
+</body>
+
+</html>
