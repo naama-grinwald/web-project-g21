@@ -46,9 +46,9 @@
   }
 
 /*responsive web */
-@media only screen and (max-width:600px) {
-  
-  .specific-detail,.specific-detail{
+  @media only screen and (max-width:600px) {
+
+  .specific-detail{
     border: 2px solid black;
     display: inline-block;
     text-align: center;
@@ -69,7 +69,7 @@
       font-size: 10px;
       width:50px;
       text-align: center;
-    display: flex;
+    `display: flex;
     }
 
     #card-container{
@@ -77,5 +77,4 @@
       text-align: center;
       padding:3px;
     }
-  
-}
+  }
