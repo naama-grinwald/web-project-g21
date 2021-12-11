@@ -4,6 +4,7 @@ table {
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
+    background-color: white;
   }
   
   /* Style table headers and table data */
