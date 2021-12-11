@@ -16,7 +16,7 @@ table {
 
   /* Zebra-striped table rows */
   tr:nth-child(even) {
-    background-color: #f2f2f2e1
+    background-color: #f8f4f0
   }
 
  
@@ -57,7 +57,7 @@ input{
   margin-top: 6px; 
   margin-bottom: 5px; 
   resize: vertical ;
-  background-color: rgba(222, 184, 135, 0.226);
+  background-color: 'rgba(222, 184, 135, 0.226)';
   margin: 5px 5px;
 }
 
