@@ -3,8 +3,8 @@
 #Staff_management-grid {
     display: grid;
     grid-template-areas: 
-    'Staff_management-header Staff_management-header'
-    'main main'
+    'Staff_management-header'
+    'main'
     ;
 }
 
@@ -58,7 +58,7 @@
     font-size: 16px;
     border: 1px solid #d1ccbc;
     text-align:right;
-    width:30%;
+    width: 40vw;
  }
 
  #buttonid{
@@ -69,3 +69,18 @@
     margin-top: 6px; 
     margin-bottom: 16px;
   }
+
+  /*responsive web */
+@media only screen and (max-width:600px) {
+
+  #Staff_management-grid{
+   display: grid;
+   grid-template-areas: 
+   'Staff_management-header'
+   'main';
+  }
+
+  .contact-box{
+    width: 70%;
+  }
+}
