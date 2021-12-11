@@ -1,0 +1,64 @@
+.bottomright {
+    position: relative;
+    bottom: 90%;
+    right: 16px;
+    background-color: rgb(224, 204, 183);
+    height:95%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    z-index: -1;
+  }
+
+  #tournament-specific-header {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(240, 228, 215);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    padding: 6px; 
+    opacity: 0.95;
+   }
+
+   .title-spesific {
+    position: absolute;
+    margin: 0 auto;
+    top: 70px;
+    right: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(219, 196, 93);
+    border-width: 150px 100px 0 100px;
+    }
+    
+  .title-spesific h4{
+      margin:-120px 0 0 0px;
+    }
+
+  #inputsubmit {
+      background-color: rgb(255, 255, 255);
+      color: black;
+      cursor: pointer;
+      margin: 10px 10px;
+      padding: 20px 20px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+      padding: 13px 23px;
+      font-size: 16px;
+      border: 1px solid #222222;
+      border-radius: 8px;
+  }
+  
+  #inputsubmit:hover {
+      background-color: #dfdbdb;
+  }
+
+  #samegrid{
+    display: grid;
+    grid-template-areas: 'sameHead' 'judje';
+  }
+
+  #sameHead{
+    grid-area: sameHead;
+  }
