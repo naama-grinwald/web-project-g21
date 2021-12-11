@@ -55,4 +55,37 @@
   }
   
 
+/*responsive web */
+@media only screen and (max-width:600px) {
+  
+  .specific-detail,.specific-detail{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(235, 207, 146);
+    width:50%;
+    height: 95%;
+    line-height: 0.01;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.151), 0 2px 4px -1px rgba(0, 0, 0, 0.116);
+    }
 
+    .specific-detail h6, .specific-detail p{
+      overflow-wrap: break-word;
+      font-size: 10px;
+    }
+
+    #card-title{
+      overflow-wrap: break-word;
+      font-size: 10px;
+      width:50px;
+      text-align: center;
+    display: flex;
+    }
+
+    #card-container{
+      display: flex;
+      text-align: center;
+      padding:3px;
+    }
+  
+}
